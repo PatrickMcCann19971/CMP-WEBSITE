@@ -1,0 +1,112 @@
+body {
+    background-color: white;
+    
+}
+
+.header {
+	background-color: #171717;
+	height: 85px;
+	width: 100%;
+	color: #ab8a66;
+	top:0px;
+    mar
+	
+}
+
+
+.home {
+    float:left;
+    padding-left: 50px;
+}
+
+.links {
+    font-family: 'Playfair Display', serif;
+    color: black;
+    text-align: right;
+    padding-top: 25px;
+    padding-right: 50px;
+    font-size: 1.4em;
+    word-spacing:40px;
+    
+}
+
+
+.links a {
+    text-decoration: none;
+    position: relative;
+    color: white;
+}
+
+.links > a:hover{
+	
+}
+
+.links > a:before{
+    content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 0px;
+  left: 0;
+  background-color: #3399ff;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+ .links > a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.home a {
+    text-decoration: none;
+    position: relative;
+    color: white;
+}
+
+.home > a:hover{
+	
+}
+
+.home> a:before{
+    content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 0px;
+  left: 0;
+  background-color: #3399ff;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+ .home > a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.cmpintro {
+    padding-top: 200px;
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 50%;
+    margin: auto;
+}
+
+.contact_sheet {
+    padding-top: 100px;
+    margin: auto;
+    font-family: "Playfair Display", serif;
+    padding: 10px;
+
+	margin-top: 10px;
+	margin-bottom:20px;
+}
+}
